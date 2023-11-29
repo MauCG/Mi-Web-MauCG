@@ -2,16 +2,68 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
-  <title>Ejemplo HTML y CSS</title>
+  <title>Mi Portafolio</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
-  <div class="container">
-    <h1>¡Hola, mundo!</h1>
-    <p>Este es un ejemplo básico de HTML y CSS trabajando juntos.</p>
-  </div>
+  <!-- Encabezado -->
+  <header>
+    <h1>Mi Portafolio</h1>
+    <nav>
+      <ul>
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#sobre-mi">Sobre mí</a></li>
+        <li><a href="#proyectos">Proyectos</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Sección de inicio -->
+  <section id="inicio">
+    <h2>Bienvenido a mi portafolio</h2>
+    <p>¡Hola! Soy [Tu Nombre] y este es mi portafolio donde muestro algunos de mis proyectos.</p>
+  </section>
+
+  <!-- Sección sobre mí -->
+  <section id="sobre-mi">
+    <h2>Sobre mí</h2>
+    <p>Aquí puedes escribir algo sobre ti, tu formación, habilidades, experiencia, etc.</p>
+  </section>
+
+  <!-- Sección de proyectos -->
+  <section id="proyectos">
+    <h2>Proyectos</h2>
+    <!-- Aquí puedes listar tus proyectos con enlaces, imágenes o descripciones -->
+    <div class="project">
+      <h3>Proyecto 1</h3>
+      <p>Descripción breve del proyecto.</p>
+      <a href="#">Ver más</a>
+    </div>
+    <div class="project">
+      <h3>Proyecto 2</h3>
+      <p>Descripción breve del proyecto.</p>
+      <a href="#">Ver más</a>
+    </div>
+    <!-- Puedes agregar más proyectos aquí -->
+  </section>
+
+  <!-- Sección de contacto -->
+  <section id="contacto">
+    <h2>Contacto</h2>
+    <p>Puedes contactarme a través de:</p>
+    <ul>
+      <li>Email: correo@example.com</li>
+      <li>Teléfono: 123-456-789</li>
+      <li>Redes Sociales: <a href="#">Instagram</a>, <a href="#">LinkedIn</a>, etc.</li>
+    </ul>
+  </section>
+
+  <!-- Pie de página -->
+  <footer>
+    <p>&copy; 2023 Tu Nombre - Todos los derechos reservados</p>
+  </footer>
 
 </body>
 </html>
-
